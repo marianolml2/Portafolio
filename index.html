@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Jquery-->
+    <script src="js/jquery.js"></script>
+    <!--Jquery UI-->
+    <script src="js/jquery-ui-1.13.2.custom/jquery-ui.min.js">
+    </script>
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2.custom/jquery-ui.theme.min.css">
+    <!--Main Script-->
+    <script src="js/main.js"></script>
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <!--Navegador-->
+        <header id="encabezado">
+            <div id="icon">
+                <i class="fa-solid fa-bars" id="barra"></i>
+
+                <i class="fa-solid fa-x" id="x"></i>
+            </div>
+            
+            <nav id="menu">   
+                <div id="name">
+                    <h2 id="nombre">
+                        Martin Zabala
+                    </h2>
+                </div>
+                    <ul id="mend">
+                        <li class="sib" id="b-i"><a href="#cuerpo" class="i">Inicio</a></li>
+                        <li class="sib" id="b-s"><a href="#contenido" class="s">Sobre Mi</a></li>
+                        <li class="sib" id="b-t"><a href="#grid" class="t">Trabajos</a></li>
+                        <li class="sib" id="b-c"><a href="#redes" class="c">Contacto</a></li>
+                    </ul>
+                <div id="men">
+                    <ul>
+                        <li class="sib" id="b-i"><a href="#cuerpo" class="i">Inicio</a></li>
+                        <li class="sib" id="b-s"><a href="#contenido" class="s">Sobre Mi</a></li>
+                        <li class="sib" id="b-t"><a href="#grid" class="t">Trabajos</a></li>
+                        <li class="sib" id="b-c"><a href="#redes" class="c">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--Bienvenida-->
+        <div id="cuerpo">
+            <h1>
+                Bienvenidos, me llamo Martin y este es mi portafolio, te invito a observar mis trabajos
+            </h1>
+            <a href="#grid" id="id">Trabajos</a>
+        </div>
+    </div>
+    <div id="mic">
+            <div id="contenido">
+                <div class="bordeL">
+                    <h3>¿Quien soy?</h3>
+                    <div class="letra">
+                        <p>
+                            Me llamo Martin Zabala tengo 23 años, vivo en Argentina, Santa Fe.
+                            Actualmente me encuentro en capacitacion y desarrollo de mis habilidades en el desarrollo
+                            web
+                        </p>
+                    </div>
+                </div>
+                <div class="bordeL">
+                    <h3>Habilidades</h3>
+                    <div class="letra">
+                        <p>Conocimiento en HTML, CSS, Javascript, Jquery y Typescript</p>
+                    </div>
+                </div>
+               <div class="bordeL">
+                <h3>Objetivos</h3>
+                <div class="letra">
+                    <p>Mis objetivos para este año son terminar mi capitacion en desarrollo web tanto en front-end como
+                        en back-end</p>
+                </div>
+               </div>
+                <div class="bordeL">   
+                    <h3>Metas</h3>
+                    <div class="letra">
+                        <p>
+                            Una de mis metas es encontrar un trabajo de desarrollador Full Stack, y seguir mejorando mis
+                            habilidades
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+      <div id="grid-p">
+    <div id="grid">
+        <div class="paginas">
+            <div id="peluqueria">
+                <img src="/img/proyectoC.jpg" alt="">
+                <h4>CRUD</h4>
+            </div>
+        </div>
+
+        <div class="paginas">
+            <div id="Inmuebles">
+                <img src="/img/proyectoI.jpg" alt="">
+                <h4>Inmueble</h4>
+            </div>
+        </div>
+
+        <div class="paginas">
+            <div id="curso">
+                <img src="/img/proyectoP.jpg" alt="">
+                <h4>Estetica</h4>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="redes">
+        <h4>Presiona sobre mis redes</h3>
+        <div id="grid-redes">
+            <div id="y">
+                <a href="https://www.youtube.com/channel/UCzswphPSQxV_2uCT5cMS6eQ" target="_blank">
+                    <div id="y-c">
+
+                        <img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" alt="" srcset="">
+                        <h3>Youtube</h3>
+                    </div>
+                    <div id="youtube"></div>
+                </a>
+            </div>
+            <div id="i">
+                <a href="https://www.instagram.com/martinlml/" target="_blank">
+                    <div id="i-c">
+                        <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="">
+                        <h3>Instagram</h3>
+                    </div>
+                    <div id="instagram"></div>
+                </a>
+            </div>
+            <div id="f">
+                <a href="https://www.facebook.com/martin.zabala.1447/" target="_blank">
+                    <div id="f-c">
+                        <img src="https://www.vectorlogo.zone/logos/facebook/facebook-tile.svg" alt="">
+                        <h3>Facebook</h3>
+                    </div>
+                    <div id="facebook"></div>
+                </a>
+            </div>
+
+            <div id="t">
+                <a href="https://twitter.com/backlml2" target="_blank">
+                    <div id="t-c">
+                        <img src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg" alt="">
+                        <h3>Twitter</h3>
+                    </div>
+                    <div id="twitter"></div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/12d88bfecd.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
